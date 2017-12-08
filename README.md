@@ -22,13 +22,13 @@ Calculation of intensities for two- or three-colour FISH experiments using wide-
 
 # Explanation of GUI Parameters:
 
-[GUI I](parameters-explained.png)
+[GUI I](ignore/parameters-explained.png)
 
 
-GUI II: selection of objective used for image acquisition (sets magnification and pixel size)
+[GUI II](ignore/GUIobjectiveselection.png): selection of objective used for image acquisition (sets magnification and pixel size)
  
 Objectives can be added/removed in function parameter_setup_auto by adding a new case to the switch in line 3. 
 
-GUI III/IV: select ‘Yes’ to run multiple sets of images (data are pooled for each individual data set) or ‘No’ to run a single data set.
+[GUI III](ignore/GUIbatchrun.png) and [GUI IV](ignore/batchpathprompt.png): select ‘Yes’ to run multiple sets of images (data are pooled for each individual data set) or ‘No’ to run a single data set.
 		If ‘Yes’ is selected, a second GUI asks for the path to the parent directory in which the data directories are located  
  				 
