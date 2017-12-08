@@ -1,0 +1,12 @@
+%function make2colourvideo
+
+%select green files
+[setup_green,I_green_cell,T_green_cell,save_dir_green_cell] = main2colourvideo;
+%select red files
+[setup_red,I_red_cell,T_red_cell,save_dir_red_cell] = main2colourvideo;
+
+for n=1:size(I_red,2)
+I_red = I_red_cell    
+makeavi2colour(setup_red,I_red,T_red,save_dir_green,save_dir_red);
+end
+
