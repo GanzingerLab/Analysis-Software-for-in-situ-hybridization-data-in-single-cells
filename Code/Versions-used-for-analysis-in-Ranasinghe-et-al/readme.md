@@ -18,13 +18,13 @@
 
 # Explanation of GUI Parameters:
 
-[GUI I](Analysis-Software-for-in-situ-hybridization-data-in-single-cells/ignore/parameters-explained.png)
+[GUI I](../Analysis-Software-for-in-situ-hybridization-data-in-single-cells/ignore/parameters-explained.png)
 
 
-[GUI II](Analysis-Software-for-in-situ-hybridization-data-in-single-cells/ignore/GUIobjectiveselection.png): selection of objective used for image acquisition (sets magnification and pixel size)
+[GUI II](../Analysis-Software-for-in-situ-hybridization-data-in-single-cells/ignore/GUIobjectiveselection.png): selection of objective used for image acquisition (sets magnification and pixel size)
  
 Objectives can be added/removed in function parameter_setup_auto by adding a new case to the switch in line 3. 
 
-[GUI III](Analysis-Software-for-in-situ-hybridization-data-in-single-cells/ignore/GUIbatchrun.png) and [GUI IV](Analysis-Software-for-in-situ-hybridization-data-in-single-cells/ignore/batchpathprompt.png): select ‘Yes’ to run multiple sets of images (data are pooled for each individual data set) or ‘No’ to run a single data set.
+[GUI III](../Analysis-Software-for-in-situ-hybridization-data-in-single-cells/ignore/GUIbatchrun.png) and [GUI IV](../Analysis-Software-for-in-situ-hybridization-data-in-single-cells/ignore/batchpathprompt.png): select ‘Yes’ to run multiple sets of images (data are pooled for each individual data set) or ‘No’ to run a single data set.
 		If ‘Yes’ is selected, a second GUI asks for the path to the parent directory in which the data directories are located  
  				 
