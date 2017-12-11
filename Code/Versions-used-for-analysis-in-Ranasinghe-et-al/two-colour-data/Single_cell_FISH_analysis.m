@@ -33,7 +33,7 @@ switch choice
         isbatch = 1;
         
         prompt={'path:'};
-        defans = {'C:\Users\DataToAnalyse'};
+        defans = {'C:\Users\DataToAnalyse'};     
         info = inputdlg(prompt,'Please enter full path to data directory',1,defans);
         path = info{1};
         

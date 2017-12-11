@@ -132,44 +132,45 @@ if parameters.display_images == 1 && strcmp(type,'r')
 end
 
 
-%%code used to generate SI Figure 3
-if strcmp(type,'b')
-figure
-for i = 1:length(xyAreaInt)
- 
+%% code for plot in figure S4
 
-if i == 21 || i == 29
-   g =  scatter(xyAreaInt_red(i,5),xyAreaInt(i,5),'MarkerEdgeColor','c');
-
-            h = text(xyAreaInt_red(i,5),xyAreaInt(i,5),strcat(' \leftarrow', num2str(i)));
-            set(h,'Color','c',...
-                'FontSize',10);%,'FontWeight','bold');
-
-elseif i == 31 || i == 34
-   g =  scatter(xyAreaInt_red(i,5),xyAreaInt(i,5),'MarkerEdgeColor','m');
-
-            h = text(xyAreaInt_red(i,5),xyAreaInt(i,5),strcat(' \leftarrow', num2str(i)));
-            set(h,'Color','m',...
-                'FontSize',10);%,'FontWeight','bold');
-
-elseif i == 50 || i == 40
-    g = scatter(xyAreaInt_red(i,5),xyAreaInt(i,5),'MarkerEdgeColor','y');
-
-            h = text(xyAreaInt_red(i,5),xyAreaInt(i,5),strcat(' \leftarrow', num2str(i)));
-            set(h,'Color','y',...
-                'FontSize',10);%,'FontWeight','bold');
-else
-g = scatter(xyAreaInt_red(i,5),xyAreaInt(i,5),'MarkerEdgeColor',[0.3 0.3 0.3]);
-
-end
-set(g,'SizeData',100,'LineWidth',2);
-            hold on
-
-
-end
-hold off
-pause
-end
+% if strcmp(type,'b')
+% figure
+% for i = 1:length(xyAreaInt)
+%  
+% 
+% if i == 21 || i == 29
+%    g =  scatter(xyAreaInt_red(i,5),xyAreaInt(i,5),'MarkerEdgeColor','c');
+% 
+%             h = text(xyAreaInt_red(i,5),xyAreaInt(i,5),strcat(' \leftarrow', num2str(i)));
+%             set(h,'Color','c',...
+%                 'FontSize',10);%,'FontWeight','bold');
+% 
+% elseif i == 31 || i == 34
+%    g =  scatter(xyAreaInt_red(i,5),xyAreaInt(i,5),'MarkerEdgeColor','m');
+% 
+%             h = text(xyAreaInt_red(i,5),xyAreaInt(i,5),strcat(' \leftarrow', num2str(i)));
+%             set(h,'Color','m',...
+%                 'FontSize',10);%,'FontWeight','bold');
+% 
+% elseif i == 50 || i == 40
+%     g = scatter(xyAreaInt_red(i,5),xyAreaInt(i,5),'MarkerEdgeColor','y');
+% 
+%             h = text(xyAreaInt_red(i,5),xyAreaInt(i,5),strcat(' \leftarrow', num2str(i)));
+%             set(h,'Color','y',...
+%                 'FontSize',10);%,'FontWeight','bold');
+% else
+% g = scatter(xyAreaInt_red(i,5),xyAreaInt(i,5),'MarkerEdgeColor',[0.3 0.3 0.3]);
+% 
+% end
+% set(g,'SizeData',100,'LineWidth',2);
+%             hold on
+% 
+% 
+% end
+% hold off
+% pause
+% end
 
 
 
