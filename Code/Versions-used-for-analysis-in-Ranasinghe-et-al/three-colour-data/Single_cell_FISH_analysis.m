@@ -61,6 +61,7 @@ ampli_fitres = cell(1,number_of_samples);
 lnZ_AND_ampli = cell(1,number_of_samples);
 all_red_ampli_collected = cell(1,number_of_samples);
 all_blue_ampli_collected = cell(1,number_of_samples);
+all_yellow_ampli_collected = cell(1,number_of_samples);
 lnZ_hist_counts = cell(1,number_of_samples);
 lnZ_hist_freq = cell(1,number_of_samples);
 end
@@ -100,7 +101,7 @@ for n2=1:number_of_samples
         [red_files,blue_files,yellow_files] = get_tiffs_threecolours(parameters,stacks_directory);
         Lstack = length(red_files);
         yellow = cell(Lstack,1);
-        all_yellow_ampli_collected = cell(1,number_of_samples);
+       
         
     end
     
