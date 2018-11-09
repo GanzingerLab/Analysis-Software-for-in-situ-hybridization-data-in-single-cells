@@ -6,4 +6,4 @@ Calculation of intensities for two- or three-colour fluorescence *in situ* hybri
 # Using this software:
 You can find the MATLAB code in this repository, the code is commented and accompanied by read-me files. If you end up using a (modified) version of our code for your academic work, please cite our original publication!
 
-In case of questions, email Kristina Ganzinger (ganzinger AT biochem DOT mpg DOT de) or get in touch by [raising an issue](https://github.com/kganzinger/Analysis-Software-for-in-situ-hybridization-data-in-single-cells/issues).
+In case of questions, email Kristina Ganzinger (k.ganzinger AT amolf DOT nl) or get in touch by [raising an issue](https://github.com/kganzinger/Analysis-Software-for-in-situ-hybridization-data-in-single-cells/issues).
